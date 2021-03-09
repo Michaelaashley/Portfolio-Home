@@ -1,0 +1,368 @@
+* {
+    margin: 5px;
+}
+
+/* Navigation */
+
+.nav-container {
+    background: #FFFFFF;
+    height: 90px;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    font-family: "Mulish";
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+
+span {
+    margin: 0;
+}
+  
+  .topnav {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 2;
+  }
+
+.topnav a {
+    float: left;
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: "Mulish";
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    color:#64BFBA;
+  }
+  
+  .topnav a.active {
+    color: black;
+  }
+  
+  .topnav .icon {display:none;}
+  
+  .topnav div:not(.sub-menu-show) {display: none;}
+
+
+  .topnav.responsive div {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+.topnav.responsive.sub-menu-active {
+    -moz-transition:ease-in-out 300ms;
+    -webkit-transition:ease-in-out 300ms;
+    transition:ease-in-out 300ms; 
+}
+
+
+
+.topnav .icon {display:none;}
+
+.topnav div:not(.sub-menu-show) {display: none;}
+
+
+.topnav.responsive div {
+  float: none;
+  display: block;
+  text-align: left;
+}
+.topnav.responsive.sub-menu-active {
+  -moz-transition:ease-in-out 300ms;
+  -webkit-transition:ease-in-out 300ms;
+  transition:ease-in-out 300ms; 
+}
+
+.title {
+    position: absolute;
+    left: 130px;
+    top: 20px;
+font-family: 'Playfair Display', serif;
+font-style:inherit;
+font-weight:lighter;
+font-size: 40px;
+line-height: 53px;
+color: #272626;
+}
+
+
+
+
+/* Media Query */
+
+@media screen and (max-width: 900px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+        right: 0;
+        top: 0;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+        -moz-transition:ease-in-out 300ms;
+        -webkit-transition:ease-in-out 300ms;
+        transition:ease-in-out 300ms; 
+      }
+      .topnav.responsive {position: relative;}
+      .topnav.responsive .icon {
+        right: 0;
+        top: 0;
+        -moz-transition:ease-in-out 300ms;
+        -webkit-transition:ease-in-out 300ms;
+        transition:ease-in-out 300ms; 
+        transform:rotate(90deg);
+      }
+
+      .sub-menu {
+        min-width: 330px;
+        min-height: 250px;
+        top: -250px;
+        background-color: #74DAE0;
+        border: 2px solid #64BFBA;
+        border-radius: 164px;
+        z-index: 0;
+        position: absolute;
+        transform: translate(100px, 200px);
+    }
+    
+    .topnav.responsive div {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+   .topnav .links {display: none;}
+
+   .title {
+       position: absolute;
+       left: 30px;
+    top: 150px;
+font-family: 'Playfair Display', serif;
+font-style:inherit;
+font-weight:lighter;
+font-size: 40px;
+line-height: 53px;
+color: #272626;
+    }
+
+    section p1 {
+        position: relative;
+        display: block;
+height: 109px;
+left: 10px;
+top: 120px;
+font-family: "Mulish";
+font-style:normal;
+font-weight:lighter;
+font-size: 20px;
+line-height: 30px;
+color: #272626;
+    }
+
+
+section h1 {
+    position: absolute;
+       left: 30px;
+    top: 400px;
+font-family: 'Playfair Display', serif;
+font-style:normal;
+font-weight:lighter;
+font-size: 40px;
+line-height: 53px;
+color: #272626;
+}
+
+.travlbee {
+    position: relative;
+width: 410px;
+height: 230px;
+left: 15px;
+top: 260px;
+border-radius: 41px;
+}
+
+section p2 {
+    position: relative;
+    display: block;
+height: 76px;
+left: 10px;
+top: 260px;
+font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+color: #000000;
+}
+
+.btn1 {
+    position: relative;
+    display: flex;
+width: 182px;
+height: 48px;
+left: 10px;
+top: 270px;
+justify-content:space-evenly;
+align-items: center;
+font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+color: #FFFFFF;
+background: #000000;
+border-radius: 26px;
+border: 2px solid #000000;
+cursor: pointer;
+text-decoration: none;
+}
+
+.spark {
+    position: relative;
+width: 400px;
+height: 400px;
+left: 15px;
+top: 300px;
+border-radius: 41px;
+}
+
+section p3 {
+    position: relative;
+    display: block;
+height: 76px;
+left: 10px;
+top: 320px;
+font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+color: #000000;
+}
+
+.btn2 {
+    position: relative;
+    display: flex;
+width: 182px;
+height: 48px;
+left: 10px;
+top: 330px;
+justify-content:space-evenly;
+align-items: center;
+font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+color: #FFFFFF;
+background: #000000;
+border-radius: 26px;
+border: 2px solid #000000;
+cursor: pointer;
+text-decoration: none;
+}
+
+.benefitsgov {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 15px;
+    top: 360px;
+    border-radius: 41px;
+}
+
+section p4 {
+    position: relative;
+    display: block;
+height: 76px;
+left: 10px;
+top: 365px;
+font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+color: #000000;
+}
+
+.btn3 {
+    position: relative;
+    display: flex;
+width: 182px;
+height: 48px;
+left: 10px;
+top: 360px;
+justify-content:space-evenly;
+align-items: center;
+font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+color: #FFFFFF;
+background: #000000;
+border-radius: 26px;
+border: 2px solid #000000;
+cursor: pointer;
+text-decoration: none;
+}
+
+section h3 {
+    position: relative;
+    justify-content: center;
+    display:flex;
+    top: 500px;
+font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 45px;
+color: #000000;
+}
+
+section p5 {
+    position: relative;
+    text-align: center;
+    display: block;
+height: 76px;
+top: 520px;
+font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+color: #000000;
+}
+
+.flex-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 500px;
+    left: 80px;
+    width: 40px;
+    height: 60px;
+}
+
+.circlegrid2 {
+position: relative;
+width: 460px;
+height: 100px;
+top: 550px;
+bottom: -200%;
+
+}
+
+
+}
