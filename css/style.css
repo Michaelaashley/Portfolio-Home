@@ -2,6 +2,10 @@
     margin: 5px;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /* Navigation */
 
 .nav-container {
@@ -97,15 +101,329 @@ color: #272626;
 
 
 
+/* Header Content */
+
+.largecircle {
+    position: relative;
+    width: 670.41px;
+    height: 692.12px;
+    left: -80px;
+    top: 20px;
+    z-index: 0;
+}
+
+.smallcircle {
+    position: absolute;
+    width: 300px;
+height: 300px;
+top: 600px;
+left: 400px;
+z-index: 2;
+}
+
+
+body {
+    background-image: url(/users/kaykay/Documents/Github/Portfolio-Home/images/circle-element.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:initial;
+}
+
+section h1 {
+    position: relative;
+    display: block;
+    margin: auto;
+left: 770px;
+bottom: 630px;
+font-family: 'Playfair Display', serif;
+font-style:inherit;
+font-weight:lighter;
+font-size: 40px;
+line-height: 53px;
+color: #272626;
+}
+
+section p1 {
+    position: relative;
+    display:block;
+    margin: auto;
+    max-width: 50%;
+    left: 300px;
+    bottom: 600px;
+font-family: "Mulish";
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 45px;
+color: #272626;
+}
+
+
+
+/* My Work Content */
+
+section h2 {
+    position: relative;
+    display:flex;
+width: 284px;
+left: 1102px;
+bottom: 100px;
+font-family: 'Playfair Display', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 80px;
+color: #272626;
+}
+
+.travlbee {
+    position: relative;
+    display: flex;
+width: 752px;
+left: 28px;
+bottom: 100px;
+border-radius: 41px;
+}
+
+section p2 {
+    position: relative;
+    display: block;
+    max-width: 45%;
+left: 802px;
+bottom: 600px;
+font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+color: #000000;
+}
+
+body {
+    background-image: url(/Users/kaykay/Documents/UX_UI_HW_18_2/images/circlegrid1.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:initial;
+}
+
+.btn1 {
+    position: relative;
+    display: flex;
+width: 246px;
+height: 55px;
+left: 802px;
+bottom: 580px;
+justify-content:space-evenly;
+align-items: center;
+font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+color: #FFFFFF;
+background: #000000;
+border-radius: 26px;
+border: 2px solid #000000;
+cursor: pointer;
+text-decoration: none;
+}
+
+.btn1:hover {
+    background-color: transparent;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.spark {
+    position: relative;
+    display: flex;
+    width: 643px;
+    right: 60%;
+    left: 740px;
+    bottom: 200px;
+    border-radius: 41px;
+}
+
+section p3 {
+    position: relative;
+    text-align: right;
+    display:block;
+    max-width: 45%;
+left: 80px;
+bottom: 800px;
+font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+text-align: right;
+color: #000000;
+}
+
+.btn2 {
+    position: relative;
+    margin-left: 28%;
+    display: flex;
+    width: 246px;
+    left: 80px;
+    bottom: 780px;
+    height: 55px;
+    justify-content:space-evenly;
+align-items: center;
+font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+color: #FFFFFF;
+background: #000000;
+border-radius: 26px;
+border: 2px solid black;
+cursor: pointer;
+text-decoration: none;
+}
+
+.btn2:hover {
+    background-color:transparent;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.benefitsgov {
+    position: relative;
+    display: flex;
+    width: 643px;
+    left: 31px;
+    bottom: 250px;
+    border-radius: 41px;
+}
+
+section p4 {
+    position: relative;
+    display: block;
+    max-width: 45%;
+left: 710px;
+bottom: 850px;
+font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+color: #000000;
+}
+
+.btn3 {
+    position: relative;
+    display: flex;
+    width: 246px;
+    left: 710px;
+    bottom: 830px;
+    height: 55px;
+    justify-content:space-evenly;
+align-items: center;
+font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+color: #FFFFFF;
+background: #000000;
+border-radius: 26px;
+border: 2px solid black;
+cursor: pointer;
+text-decoration: none;
+}
+
+.btn3:hover {
+    background-color: transparent;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+
+
+
+section h3 {
+    position: relative;
+    display: flex;
+    text-align: center;
+    margin-left: 40%;
+    bottom: 230px;
+font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 60px;
+color: #000000;
+}
+
+section p5 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+width: 544px;
+height: 50px;
+margin-left: 30%;
+bottom: 210px;
+font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.flex-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    bottom: 230px;
+    width: 40px;
+    height: 60px;
+}
+
+
+
+
+.circlegrid2 {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -8%;
+    bottom: -200;
+}
+
+
+
+
+
+
+
 
 /* Media Query */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
         right: 0;
         top: 0;
     }
+
+    body {
+        background-image: none;
+    }
+
+    .largecircle {
+        display: none;
+    }
+
+    .smallcircle {
+        display: none;
+    }
+
 
     .topnav a.icon {
         float: right;
@@ -114,6 +432,7 @@ color: #272626;
         -webkit-transition:ease-in-out 300ms;
         transition:ease-in-out 300ms; 
       }
+
       .topnav.responsive {position: relative;}
       .topnav.responsive .icon {
         right: 0;
@@ -156,19 +475,33 @@ line-height: 53px;
 color: #272626;
     }
 
+    section h2 {
+        position: absolute;
+        display:flex;
+    width: 284px;
+    left: 30px;
+    top: 520px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    color: #272626;
+    }
+
     section p1 {
-        position: relative;
+        position:relative;
         display: block;
-height: 109px;
-left: 10px;
-top: 120px;
+left: -80px;
+top: 150px;
 font-family: "Mulish";
 font-style:normal;
 font-weight:lighter;
 font-size: 20px;
 line-height: 30px;
 color: #272626;
-    }
+z-index: 8;
+}
 
 
 section h1 {
@@ -188,22 +521,24 @@ color: #272626;
 width: 410px;
 height: 230px;
 left: 15px;
-top: 260px;
+top: 300px;
 border-radius: 41px;
 }
 
 section p2 {
     position: relative;
     display: block;
+    width: 332px;
 height: 76px;
 left: 10px;
-top: 260px;
+top: 320px;
 font-family: "Mulish";
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 23px;
 color: #000000;
+text-align: left;
 }
 
 .btn1 {
@@ -212,7 +547,7 @@ color: #000000;
 width: 182px;
 height: 48px;
 left: 10px;
-top: 270px;
+top: 430px;
 justify-content:space-evenly;
 align-items: center;
 font-family: "Mulish";
@@ -233,7 +568,7 @@ text-decoration: none;
 width: 400px;
 height: 400px;
 left: 15px;
-top: 300px;
+top: 480px;
 border-radius: 41px;
 }
 
@@ -242,13 +577,14 @@ section p3 {
     display: block;
 height: 76px;
 left: 10px;
-top: 320px;
+top: 490px;
 font-family: "Mulish";
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 23px;
 color: #000000;
+text-align: left;
 }
 
 .btn2 {
@@ -256,8 +592,8 @@ color: #000000;
     display: flex;
 width: 182px;
 height: 48px;
-left: 10px;
-top: 330px;
+left: -110px;
+top: 570px;
 justify-content:space-evenly;
 align-items: center;
 font-family: "Mulish";
@@ -278,7 +614,7 @@ text-decoration: none;
     width: 400px;
     height: 400px;
     left: 15px;
-    top: 360px;
+    top: 610px;
     border-radius: 41px;
 }
 
@@ -286,8 +622,8 @@ section p4 {
     position: relative;
     display: block;
 height: 76px;
-left: 10px;
-top: 365px;
+left: 15px;
+top: 620px;
 font-family: "Mulish";
 font-style: normal;
 font-weight: normal;
@@ -302,7 +638,7 @@ color: #000000;
 width: 182px;
 height: 48px;
 left: 10px;
-top: 360px;
+top: 680px;
 justify-content:space-evenly;
 align-items: center;
 font-family: "Mulish";
@@ -322,7 +658,8 @@ section h3 {
     position: relative;
     justify-content: center;
     display:flex;
-    top: 500px;
+    top: 750px;
+    right: 90px;
 font-family: "Mulish";
 font-style: normal;
 font-weight: normal;
@@ -336,7 +673,8 @@ section p5 {
     text-align: center;
     display: block;
 height: 76px;
-top: 520px;
+top: 760px;
+right: 180px;
 font-family: "Mulish";
 font-style: normal;
 font-weight: normal;
@@ -349,19 +687,19 @@ color: #000000;
     position: relative;
     display: flex;
     flex-direction: row;
-    top: 500px;
-    left: 80px;
+    top: 740px;
+    right: 90px;
     width: 40px;
     height: 60px;
 }
 
 .circlegrid2 {
 position: relative;
+right: 100px;
 width: 460px;
 height: 100px;
-top: 550px;
+top: 850px;
 bottom: -200%;
-
 }
 
 
