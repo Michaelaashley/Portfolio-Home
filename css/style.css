@@ -70,9 +70,8 @@ span {
 }
 
 
-
 .topnav .icon {display:none;}
-
+  
 .topnav div:not(.sub-menu-show) {display: none;}
 
 
@@ -86,6 +85,7 @@ span {
   -webkit-transition:ease-in-out 300ms;
   transition:ease-in-out 300ms; 
 }
+
 
 .title {
     position: absolute;
@@ -341,8 +341,6 @@ text-decoration: none;
 }
 
 
-
-
 section h3 {
     position: relative;
     display: flex;
@@ -388,17 +386,12 @@ color: #000000;
 
 
 
-
 .circlegrid2 {
     position: absolute;
     margin-left: 20%;
     margin-top: -8%;
     bottom: -200;
 }
-
-
-
-
 
 
 
@@ -424,7 +417,6 @@ color: #000000;
         display: none;
     }
 
-
     .topnav a.icon {
         float: right;
         display: block;
@@ -432,7 +424,6 @@ color: #000000;
         -webkit-transition:ease-in-out 300ms;
         transition:ease-in-out 300ms; 
       }
-
       .topnav.responsive {position: relative;}
       .topnav.responsive .icon {
         right: 0;
