@@ -446,6 +446,15 @@ color: #000000;
         display: none;
     }
 
+    .background-2 {
+        position: absolute;
+        width: 800px;
+        height: 2030px;
+        left: 0px;
+        top: 680px;
+        background: linear-gradient(180deg, rgba(180, 171, 219, 0.199) 0%, rgba(255, 255, 255, 0.123) 100%, rgba(255, 255, 255, 0) 100%, rgba(145, 209, 195, 0.685) 100%, rgb(131, 225, 231) 100%);
+    }
+
     .topnav a.icon {
         float: right;
         display: block;
@@ -715,10 +724,7 @@ color: #000000;
 }
 
 .circlegrid2 {
-position: relative;
-right: 100px;
-width: 460px;
-height: 100px;
+display: none;
 }
 
 
