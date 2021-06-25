@@ -6,6 +6,25 @@ body {
     overflow-x: hidden;
 }
 
+.background-1 {
+position: absolute;
+width: 1440px;
+height: 680px;
+left: 0px;
+top: 0px;
+background: linear-gradient(180deg, rgba(193, 249, 208, 0.133) 0%, rgba(187, 231, 228, 0.14) 21.35%, rgba(179, 167, 255, 0.07) 70.31%, rgba(231, 203, 248, 0.105) 83.85%, rgba(252, 219, 243, 0.14) 100%);
+}
+
+.background-2 {
+    position: absolute;
+    width: 1440px;
+    height: 2780px;
+    left: 0px;
+    top: 680px;
+    background: linear-gradient(180deg, rgba(233, 210, 248, 0.133) 0%, rgba(187, 231, 228, 0.14) 29.25%, rgba(255, 255, 255, 0) 39.84%, rgba(255, 255, 255, 0) 75.47%, rgba(170, 235, 240, 0.14) 100%);
+}
+
+
 /* Navigation */
 
 .nav-container {
